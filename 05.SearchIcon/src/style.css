@@ -1,0 +1,71 @@
+/* style.css */
+
+/* Base reset and container styling */
+.container {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+/* Search input styling */
+.container input {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 25px;
+  outline: none;
+  font-size: 1rem;
+  width: 200px;
+  opacity: 0;
+  transform: scaleX(0);
+  transition: all 0.3s ease;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Visible input state */
+.container input[type="text"] {
+  opacity: 1;
+  transform: scaleX(1);
+  margin-right: 10px;
+}
+
+/* Search icon styling */
+.container svg {
+  font-size: 1.5rem;
+  color: #333;
+  transition: all 0.3s ease;
+  position: absolute;
+}
+
+/* Hover effects */
+.container:hover svg {
+  color: #2196f3;
+  transform: scale(1.1);
+}
+
+/* Active state transitions */
+.container:active {
+  transform: scale(0.98);
+}
+
+/* Mobile responsiveness */
+@media (max-width: 768px) {
+  .container input {
+    width: 150px;
+    padding: 8px 15px;
+  }
+  
+  .container svg {
+    font-size: 1.2rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .container input {
+    width: 120px;
+    font-size: 0.9rem;
+  }
+}
