@@ -7,7 +7,7 @@ A beginner-friendly calculator application built with React, featuring basic ari
 
 ![Calculator Screenshot](./public/calculator-screenshot.png)
 
-[![License](07. Calculator/LICENSE.md)](LICENSE)
+[![License](https://github.com/Ramiferjanii/REACT-PROJECT-BEEGINNER/blob/a0108651a323b9bbd4f438e37fbe4e24e035ce55/07.%20Calculator/LICENSE.md)](LICENSE)
 ## License 📄
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
