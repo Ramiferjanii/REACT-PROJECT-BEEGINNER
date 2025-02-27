@@ -7,6 +7,11 @@ A beginner-friendly calculator application built with React, featuring basic ari
 
 ![Calculator Screenshot](./public/calculator-screenshot.png)
 
+[![License](https://img.shields.io/badge/License-MIT-green)](LICENSE)
+## License 📄
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
 ## Features ✨
 
 - ➕ Basic arithmetic operations (+, -, *, /)
