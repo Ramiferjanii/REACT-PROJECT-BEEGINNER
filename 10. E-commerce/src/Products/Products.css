@@ -33,3 +33,20 @@
 .ratings-start{
     color: #d5ab55;
 }
+
+
+.total-reviews {
+    font-size: 0.9rem ;
+    margin-left: 10px;
+}
+
+
+.card-price {
+    display: flex;
+    justify-content: space-around;
+    align-items: center ;
+}
+
+.bag-icon {
+    color: #535353;
+}

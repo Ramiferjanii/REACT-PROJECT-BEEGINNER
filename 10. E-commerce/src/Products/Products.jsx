@@ -22,7 +22,7 @@ function Products() {
                         <del>$300</del> $200
                     </div>
 
-                    <div className="bag"><BsBagFill /></div>
+                    <div className="bag"><BsBagFill className='bag-icon' /></div>
                 </section>
             </div>
         </section>
