@@ -5,7 +5,7 @@ import './Color.css'
 function Color() {
   return (
     <div>
-      Color
+      Colors
     </div>
   )
 }
