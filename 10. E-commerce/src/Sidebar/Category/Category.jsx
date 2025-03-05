@@ -9,8 +9,9 @@ function Category() {
 
       <div> <label className="sidebar-label-container">
         <input type="radio" name='test' />
-        <span className="checkmark"></span>
+        <span className="checkmark">  </span> ALL
         </label> </div>
+        
 </div>
 
 
