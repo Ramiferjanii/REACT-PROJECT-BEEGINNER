@@ -19,6 +19,9 @@ function Sidebar() {
     <Category/>
     <Price/>
     <Color/>
+
+
+    
     </section>
     
     

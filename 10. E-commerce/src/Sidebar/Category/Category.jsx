@@ -11,7 +11,9 @@ function Category() {
         <label className="sidebar-label-container">
         <input type="radio" name='test' />
         <span className="checkmark">  </span> ALL
-        </label> </div>
+        </label> 
+        
+      </div>
         
 </div>
 
