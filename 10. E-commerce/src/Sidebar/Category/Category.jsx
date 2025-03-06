@@ -7,7 +7,8 @@ function Category() {
 
     <div>    <h2 className='sidebar-title' > Category </h2>
 
-      <div> <label className="sidebar-label-container">
+      <div>
+        <label className="sidebar-label-container">
         <input type="radio" name='test' />
         <span className="checkmark">  </span> ALL
         </label> </div>

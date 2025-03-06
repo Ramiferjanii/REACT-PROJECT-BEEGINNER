@@ -47,3 +47,29 @@ margin-bottom: 20px;
     background-color: #2196f3;
 }
 
+.checkmark::after {
+    content: "";
+    position: absolute;
+    display: none;
+
+}
+
+.sidebar-label-container input:checked ~ .checkmark::after {
+    display: block;
+
+}
+
+.sidebar-label-container .checkmark::after{
+    top: 6.4px ;
+    left: 6.4px;
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    background: white;
+
+}
+
+.line {
+    margin-top: 3rem ;
+    border-color: #f7f7f7;
+}
