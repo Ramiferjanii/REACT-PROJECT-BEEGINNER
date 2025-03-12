@@ -12,7 +12,7 @@ const Sidebar = ({ handleChange }) => {
         </div>
         <Category handleChange={handleChange} />
         <Price handleChange={handleChange} />
-        <Colors handleChange={handleChange} />
+        <Color handleChange={handleChange} />
       </section>
     </>
   );
